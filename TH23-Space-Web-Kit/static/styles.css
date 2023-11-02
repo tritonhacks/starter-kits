@@ -1,0 +1,84 @@
+.button {
+  background-color: #552a72;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 20px;
+}
+
+
+.background {
+    background-color:black
+}
+
+.general-text {
+    color: white;
+}
+
+.input {
+    border-radius: 10rem;
+    width: 35%;
+    height: 2rem;
+    font: 16px system-ui;
+    padding: 6px 10px;
+}
+
+.header {
+    margin: 70px 0 70px
+}
+
+.image-blurred {
+    background-image: url('https://w7.pngwing.com/pngs/680/813/png-transparent-nebula-atmosphere-sky-nebula-space-astronomy-space-miscellaneous-purple-texture.png');
+    width: 50%;
+    height: 500px;
+    object-fit: contain;
+    margin-top: 70px;
+    box-shadow: 0 0 25px 25px black inset;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img {
+    width: 350px;
+    max-height: auto;
+}
+
+.text {
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-btn {
+    margin: 90px 0px 50px
+}

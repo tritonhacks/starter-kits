@@ -1,0 +1,45 @@
+<!DOCTYPE html <html>
+
+<head>
+    <title>Ocean Animal-pedia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body class="background">
+    <datalist id="fish-names"></datalist>
+    <header class="text-center">
+        <h1>Ocean Animal-pedia</h1>
+    </header>
+    <div class="searchBar">
+        <form id="form" method="" action="" onsubmit="submit()">
+            <input list="fish-names" type="text" autocomplete="off" class="search" id="query"
+                placeholder="Type fish name. . ." />
+            <span class="button-wrapper">
+                <button id="submit" class="button">
+                    <img class="btn-img" src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" />
+                </button>
+            </span>
+        </form>
+    </div>
+    <div id="results">
+        <!-- Display the search results here, modify the contents of index.html here via js.-->
+        <div class="rounded card mb-3 border-dark">
+            <img id="result-image" class="card-img-top"></img>
+            <div class="card-body">
+                <h2 class="card-title" id="result-header"></h2>
+                <h5 class="card-header">Biology</h5>
+                <p id="result-bio-text"></p>
+                <h5 class="card-header">Physical Traits</h5>
+                <p id="result-text"></p>
+                <h5 class="card-header">Location</h5>
+                <p id="result-location"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
