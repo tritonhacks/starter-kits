@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+#navbar li:hover {
+    background-color: #111;
+  }
+
+#navbar #home {
+    float: left;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title img {
+    padding: 2vw;
+}
+
+body,h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+#content {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#origins #kaffa {
+    display: flex;
+}
+
+#kaffa img {
+    align-self: center;
+}
