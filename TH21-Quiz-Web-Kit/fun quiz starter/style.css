@@ -1,0 +1,113 @@
+/* -----------------------------------------------------------------------------------------------------
+  Feel free to add more styles!
+----------------------------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------------------------------
+  Provided Styles for the given starter code
+  Feel free to make changes
+----------------------------------------------------------------------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Calculator Styles */
+#parent{
+  box-sizing: border-box;
+  width: 500px;
+  height: fit-height;
+  background-color: #fefefe;
+  margin: auto;
+  border: 3px solid #dc6bff;
+}
+
+#form{}
+
+h1{
+  text-align: center;
+  padding: 5px 0;
+}
+
+.question{
+  padding: 10px 0;
+  width: 100%;
+  background-color: #faf0ff;
+  margin: auto;
+  margin-top: 7px;
+}
+
+h3{
+  text-align: center;
+  width: 100%;
+  padding: 7px;
+}
+
+.choices{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap
+  justify-content: space-around;
+}
+
+.choice{
+  box-sizing: border-box;
+  display: inline-block;
+  margin: auto;
+  width: 50%;
+}
+
+.check{
+  display: block;
+  margin: auto;
+}
+
+.choice-image{
+  display: block;
+  padding: 2% 0;
+  margin: auto;
+  width: 200px
+}
+
+p{
+  margin: auto;
+  width: fit-content;
+}
+
+#submit{
+  display: block;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  padding: 7px;
+  background-color: #f9e6ff;
+}
+
+#submit:hover{
+  background-color: #f1c4ff
+}
+
+#submit:active{
+  background-color: #ebadff;
+}
+
+#results{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#result{
+  text-align: center;
+  width: 100%;
+  padding: 0 0 15px 0;
+}
+
+.hide{
+  display: none;
+}

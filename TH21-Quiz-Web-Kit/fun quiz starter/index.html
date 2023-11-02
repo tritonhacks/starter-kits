@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- WE STRONGLY RECOMMEND YOU TO GO THROUGH THE DOCUMENTATION AS YOU CODE -->
+
+  
+  <title>Fun Calculator</title>
+
+  <!-- ---------------------------------------------------------------------------------------------
+  TODO: Connections to CSS files.
+  ---------------------------------------------------------------------------------------------- -->
+  
+
+  <!-- ---------------------------------------------------------------------------------------------
+  TODO: Connections to the JS files.
+  ---------------------------------------------------------------------------------------------- -->
+
+
+</head>  
+<body>
+  
+<!-- ---------------------------------------------------------------------------------------------
+Fun Quiz UI.
+Take some time to read and understand the user interface's structure.
+Change the details to match your subject.
+---------------------------------------------------------------------------------------------- -->
+<div id="parent">
+
+  <!--Contains all questions and submit button-->
+  <div id="form">
+
+    <!-- Quizzz Title-->
+    <h1>What _ are you?</h1>
+
+    <!-- Default Question-->
+    <div class="question">
+      <h3 class="prompt">Question goes here</h3>
+
+      <!--2 Answer Choices-->
+      <div class="choices">
+
+        <div class="choice">
+          <input type="radio" name="question-one" class="check left" value="#"/>
+          <img class="choice-image" src="https://picsum.photos/200">
+          <p>This is a choice 1</p>
+        </div>
+
+        <div class="choice">
+          <input type="radio" name="question-one" class="check right" value="#"/>
+          <img class="choice-image" src="https://www.picsum.photos/200">
+          <p>This is a choice 2</p>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- ---------------------------------------------------------------------------------------------
+    Submit button.
+    This is connected to the submit() function in submit.js
+    ---------------------------------------------------------------------------------------------- -->
+    <button id="submit" onclick="submit()">Submit</button>
+    
+
+  </div>
+
+  <!-- ---------------------------------------------------------------------------------------------
+  Results Container.
+  This will not show until the quiz is submitted.
+  ---------------------------------------------------------------------------------------------- -->
+  <div id="result" class="hide">
+    <h3>
+      Congratulations! You are a:
+    </h3>
+    <h6 id="output"></h6>
+  </div>
+</div>
+  
+  
+</body>
+</html>
